@@ -1,0 +1,45 @@
+File mem_tracer.c, line 248, function createArray:main:global allocated the memory segment at address 0xaaab05db3300 to a new size 24
+File mem_tracer.c, line 253, function createArray:main:global allocated the memory segment at address 0xaaab05db4330 to a new size 10
+File mem_tracer.c, line 253, function createArray:main:global allocated the memory segment at address 0xaaab05db4350 to a new size 10
+File mem_tracer.c, line 253, function createArray:main:global allocated the memory segment at address 0xaaab05db4370 to a new size 10
+File mem_tracer.c, line 383, function main:global reallocated the memory segment at address 0xaaab05db4820 to a new size 32
+File mem_tracer.c, line 384, function main:global allocated the memory segment at address 0xaaab05db3300 to a new size 2
+File mem_tracer.c, line 383, function main:global reallocated the memory segment at address 0xaaab05db4820 to a new size 40
+File mem_tracer.c, line 384, function main:global allocated the memory segment at address 0xaaab05db32e0 to a new size 2
+array[0] = 1
+array[1] = 2
+array[2] = 3
+array[3] = 4
+array[4] = 5
+File mem_tracer.c, line 305, function createNode:main:global allocated the memory segment at address 0xaaab05db4870 to a new size 24
+File mem_tracer.c, line 306, function createNode:main:global allocated the memory segment at address 0xaaab05db4890 to a new size 2
+File mem_tracer.c, line 305, function createNode:main:global allocated the memory segment at address 0xaaab05db48b0 to a new size 24
+File mem_tracer.c, line 306, function createNode:main:global allocated the memory segment at address 0xaaab05db48d0 to a new size 2
+File mem_tracer.c, line 305, function createNode:main:global allocated the memory segment at address 0xaaab05db48f0 to a new size 24
+File mem_tracer.c, line 306, function createNode:main:global allocated the memory segment at address 0xaaab05db4910 to a new size 2
+File mem_tracer.c, line 305, function createNode:main:global allocated the memory segment at address 0xaaab05db4930 to a new size 24
+File mem_tracer.c, line 306, function createNode:main:global allocated the memory segment at address 0xaaab05db4950 to a new size 2
+File mem_tracer.c, line 305, function createNode:main:global allocated the memory segment at address 0xaaab05db4970 to a new size 24
+File mem_tracer.c, line 306, function createNode:main:global allocated the memory segment at address 0xaaab05db4990 to a new size 2
+LinkedList[0] = 1
+LinkedList[1] = 2
+LinkedList[2] = 3
+LinkedList[3] = 4
+LinkedList[4] = 5
+File mem_tracer.c, line 340, function deallocateList:main:global deallocated the memory segment at address 0xaaab05db4890
+File mem_tracer.c, line 341, function deallocateList:main:global deallocated the memory segment at address 0xaaab05db4870
+File mem_tracer.c, line 340, function deallocateList:main:global deallocated the memory segment at address 0xaaab05db48d0
+File mem_tracer.c, line 341, function deallocateList:main:global deallocated the memory segment at address 0xaaab05db48b0
+File mem_tracer.c, line 340, function deallocateList:main:global deallocated the memory segment at address 0xaaab05db4910
+File mem_tracer.c, line 341, function deallocateList:main:global deallocated the memory segment at address 0xaaab05db48f0
+File mem_tracer.c, line 340, function deallocateList:main:global deallocated the memory segment at address 0xaaab05db4950
+File mem_tracer.c, line 341, function deallocateList:main:global deallocated the memory segment at address 0xaaab05db4930
+File mem_tracer.c, line 340, function deallocateList:main:global deallocated the memory segment at address 0xaaab05db4990
+File mem_tracer.c, line 341, function deallocateList:main:global deallocated the memory segment at address 0xaaab05db4970
+File mem_tracer.c, line 417, function main:global deallocated the memory segment at address 0xaaab05db4330
+File mem_tracer.c, line 417, function main:global deallocated the memory segment at address 0xaaab05db4350
+File mem_tracer.c, line 417, function main:global deallocated the memory segment at address 0xaaab05db4370
+File mem_tracer.c, line 417, function main:global deallocated the memory segment at address 0xaaab05db3300
+File mem_tracer.c, line 417, function main:global deallocated the memory segment at address 0xaaab05db32e0
+File mem_tracer.c, line 419, function main:global deallocated the memory segment at address 0xaaab05db4820
+File mem_tracer.c, line 424, function main:global deallocated the memory segment at address 0xaaab05db4390
