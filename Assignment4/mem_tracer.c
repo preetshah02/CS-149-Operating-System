@@ -233,7 +233,7 @@ int add_column(int** array,int rows,int columns)
 //          return;
 // }//end make_extend_array
 
-#define ROW 3
+#define ROW 10
 #define COLUMN 10
 
 /**
