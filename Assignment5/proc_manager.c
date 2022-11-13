@@ -169,9 +169,9 @@ int main()
 {
     int cmdNum = 0;                                 // int to record number of commands
 
-    char * line = NULL;                             // points to line in cmdfile
-    size_t size = 0;                                // size of line cmdfile
-    ssize_t read;                                   // variable used to read from file
+    char * line = NULL;                             // points to line in cmd
+    size_t size = 0;                                // size of line cmd
+    ssize_t read;                                   // variable used to read from stdin
 
     struct timespec sta, fin;
 
@@ -203,7 +203,7 @@ int main()
             return 1;
         }
     }
-
+    free(line);                                     // To avoid memory leaks
     pid_t p;                                        // pid of child process
 
     int status;                                     // status of child process
