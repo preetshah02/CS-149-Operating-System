@@ -1,0 +1,16 @@
+Starting command 2: child 3134 pid of parent 3132
+total 68
+drwxrwxr-x  3 preet preet  4096 Nov  4 06:43 cmake-build-debug
+-rw-rw-r--  1 preet preet   129 Nov  5 03:52 CMakeLists.txt
+drwxrwxr-x 15 preet preet  4096 Nov 11 08:01 ..
+-rw-rw-r--  1 preet preet    41 Nov 12 01:10 cmdfile.txt
+-rw-rw-r--  1 preet preet  8834 Nov 12 01:12 proc_manager.c
+drwxrwxr-x  2 preet preet  4096 Nov 12 01:12 .idea
+-rwxrwxr-x  1 preet preet 14376 Nov 12 01:12 proc_manager
+-rwxrwxr-x  1 preet preet    50 Nov 12 01:12 3134.out
+-rwxrwxr-x  1 preet preet    50 Nov 12 01:12 3136.out
+-rwxrwxr-x  1 preet preet    50 Nov 12 01:12 3135.out
+-rwxrwxr-x  1 preet preet    50 Nov 12 01:12 3133.out
+drwxrwxr-x  4 preet preet  4096 Nov 12 01:12 .
+Finished child 3134 pid of parent 3132
+Finished at 1301480, runtime duration 0.007294

@@ -1,0 +1,6 @@
+sleep 5
+ls -latr
+sleep 1
+pwd
+sleep 20
+^D
