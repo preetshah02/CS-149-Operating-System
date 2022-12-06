@@ -214,7 +214,6 @@ void* thread_runner(void* x)
     time_t currentTime;
     time(&currentTime);
     char strLine[30];                   //has all the unique names
-    char fullLine[50];                  //mainly used to print errors
     char time[50];                      //has the current time.
 
     pthread_t me;
@@ -266,19 +265,18 @@ void* thread_runner(void* x)
         int count = 0;
         while(fgets(strLine, 30, fp ))
         {
+            count++;
             pthread_mutex_lock(&tlock3);
-            if(strcmp(strLine, " ") < 0)
+            if(strLine[0] == '\n' || strLine[1] == '\n')
             {
-                sprintf(fullLine, "Warning- file %s line %d is empty", (char*) x, count + 1);
-                strcpy(lineStr[lineIndex], fullLine);
-                lineIndex+=1;
+                fprintf(stderr, "Warning- file %s line %d is empty\n", (char*) x, count);
             }
             else
             {
                 strLine[strcspn(strLine, "\n")] = 0;
                 pushNode(strLine);
             }
-            count++;
+            //count++;
             pthread_mutex_unlock(&tlock3);
         }
     }
@@ -294,7 +292,7 @@ void* thread_runner(void* x)
     if (p != NULL && p->creator == me) {
         printf("logindex %d, thread %ld, pid %d, %s. This is thread %ld and I delete THREADDATA\n",logindex, me, getpid(), time, me);
         free(p);
-        p = NULL;
+        //p = NULL;
     }
     else
     {
